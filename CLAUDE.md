@@ -24,7 +24,8 @@ Full plan: `MASTER_PROMPT.md`. Plan check with current docs: `docs/PLAN-REVIEW.m
 | Live video | WebRTC (`flutter_webrtc`), Firestore signaling, TURN with short-lived credentials | fixed by plan |
 | Where Claude works | cloud session vs owner's computer | **not decided** |
 | App name / package ID | — | **not decided** |
-| Minimum Android version | — | decide in Phase 0 |
+| Minimum Android version | API 24 (Android 7.0), the floor for Flutter 3.47 + google_sign_in | recommended, confirm phones in Phase 0 |
+| Toolchain | Flutter 3.47.x stable, Node 24 LTS, Java 21 (Firebase emulator), keep Flutter's pinned AGP/Gradle | recommended |
 
 ## Environment notes
 

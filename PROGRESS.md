@@ -12,11 +12,12 @@ _Last updated: 2026-09-25 (session 1)_
 
 - The GitHub repo `mohnish-cyber/Security-Cam` is **public**. The plan wants it **private**. Switch it before we add Firebase files.
 - The "Fill these in" section of `MASTER_PROMPT.md` is still blank.
-- Claude is running in a cloud computer, not on the owner's PC. We must pick how to work (see `docs/PLAN-REVIEW.md`, section 1).
+- Claude is running in a cloud computer, not on the owner's PC. We must pick how to work (see `docs/PLAN-REVIEW.md`, section 1.1).
+- Plan changes agreed in the review are not yet copied into the phase lists below (Blaze moves to Phase 2b; 'auto-start after reboot' becomes 'resume after reboot').
 
 ## Phase 0: Set up the computer and run a first app 🔄
 
-- ✅ Read the master plan and check it against current official docs → `docs/PLAN-REVIEW.md`
+- 🔄 Check the plan against current official docs → `docs/PLAN-REVIEW.md` (main topics done; TURN, packages, Play/legal and a second check still to do)
 - ⏸ Step 1: find out the owner's computer OS and what is installed
 - ⬜ Install Git, Flutter, Android Studio (SDK + command-line tools), Node.js, VS Code (optional)
 - ⬜ `flutter doctor` shows no Android problems
